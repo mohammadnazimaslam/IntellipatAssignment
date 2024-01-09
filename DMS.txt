@@ -1,0 +1,47 @@
+Agenda
+======
+DMS (Database Migration Service)
+================================
+
+AWS Database Migration Service helps you migrate databases to AWS quickly and securely. 
+
+The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. 
+
+The AWS Database Migration Service can migrate your data to and from most widely used commercial and open-source databases.
+
+Use cases
+============
+Homogeneous database migrations
+===============================
+You create a migration task with connections to the source and target databases, then start the migration with the click of a button. AWS Database Migration Service takes care of the rest.
+
+Heterogeneous database migrations
+=================================
+Use the AWS Schema Conversion Tool to convert the source schema and code to match that of the target database, and then use the AWS Database Migration Service to migrate data from the source database to the target database.
+
+Database consolidation
+======================
+You can use AWS Database Migration Service to consolidate multiple source databases into a single target database. This can be done for homogeneous and heterogeneous migrations, and you can use this feature with all supported database engines.
+
+Continuous data replication
+===========================
+Continuous data replication has a multitude of use cases including Disaster Recovery instance synchronization, geographic database distribution and Dev/Test environment synchronization. You can use DMS for both homogeneous and heterogeneous data replications for all supported database engines.
+
+Benefits and features
+======================
+
+Minimal downtime
+================
+All data changes to the source database that occur during the migration are continuously replicated to the target, allowing the source database to be fully operational during the migration process.
+
+Supports widely used databases
+==============================
+AWS DMS supports homogeneous migrations such as Oracle to Oracle, as well as heterogeneous migrations between different database platforms, such as Oracle to Amazon Aurora.
+
+Low cost
+========
+You only pay for the compute resources used during the migration process and any additional log storage. Migrating a terabyte-size database can be done for as little as $3.
+
+Reliable
+========
+Multi-AZ option allows you to have high-availability for database migration and continous data replication by enabling redundant replication instances.
